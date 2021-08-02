@@ -1,0 +1,274 @@
+.range_parent_calendar_root .tail-datetime-calendar .calendar-date table tbody tr > *.today::after
+  {
+    background-color: transparent !important;
+  }
+  .range_parent_calendar_root .tail-datetime-calendar .calendar-date{
+    margin:0px 13px 0px 13px;
+  }
+  .range_parent_calendar_root .tail-datetime-calendar .calendar-date table tbody tr>*:nth-child(6) {
+    color: red !important;
+  }
+  
+  .range_parent_calendar_root .tail-datetime-calendar .calendar-date table thead tr>*:nth-child(6) {
+    color: red !important;
+  }
+  .d_none{
+    background-color: none !important;
+  }
+  
+  .range_upcom_div {
+    background-color: #83AF40;
+    margin: 15px 20px 0px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    // height:60px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    line-height: 1.8;
+  }
+  .upcom_cnt_inside{
+    text-align: end;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .mem_pro_cont{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  // myschedue css
+  .my_sch{
+    font-size: 20px;
+    margin: 15px 20px 0px;
+    font-weight: bold;
+    color:#333333;
+  }
+  .upcom_div{
+    background-color: #83AF40;
+    margin: 15px 20px 0px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    color: #fff;
+  }
+  .sch_head_name{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px !important;
+  }
+  .sch_head_days{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  .up_comedays{
+    font-size: 16px;
+  }
+  .daysin_clr{
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 25px;
+   align-items: center;
+  }
+  .dot_circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #83AF40;
+    margin-right: 5px;
+  }
+ .dot_circle_tdy{
+    background-color:#F8D3BC !important;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    margin-right: 8px;
+ }
+ .b_dot_circle_up{
+   background-color:#83AF40;
+   width: 13px;
+   height: 13px;
+   border-radius: 50px;
+   margin-right: 8px;
+ }
+ .b_dot_circle_ex{
+  background-color:#11A0D9;
+  width: 13px;
+  height: 13px;
+  border-radius: 50px;
+  margin-right: 8px;
+ }
+  .dot_cir_div{
+    display:flex;
+    align-items: center;
+    color:#242134;
+  }
+  .LR_icons{
+    font-size: 2.2rem !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // range css
+  .table_fir_sel {
+    background-color: #83AF40;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color:#fff;
+  }
+  
+  .table_sec_sel {
+    background-color: #83AF40;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+  }
+  
+  .table_inter_sel {
+    background-color: #83AF40;
+    color:#fff;
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3125) !important;
+    // -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3125) !important;
+  }
+  .date_arrow{
+    cursor: pointer;
+  }
+
+  .diffbgColor{
+    background-color: pink;
+  }
+  
+  .date_select_cont{
+    text-align: center;
+    color: #242134;
+    font-size: 15px;
+    font: italic normal normal 17px Roboto;
+  }
+  // bottom of bookings information
+  .b_dot_circle{
+    background-color:#E0EBCF;
+    width: 13px;
+    height:13px;
+    border-radius:50%;
+    margin-right:8px;
+  }
+  .days_in_clr_points{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .days_in_clr_points div:nth-child(2){
+    margin: 0px 13px;
+  }
+  
+  // for tc_myschedule
+  .b_res_circle_ex{
+    background-color:#F7B930;
+    width: 13px;
+    height:13px;
+    border-radius:50%;
+    margin-right:8px;
+  }
+  .days_in_clr div:nth-child(2){
+    margin: 0px;
+  }
+  .days_in_clr{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+  .b_reshe{
+    background-color: #83AF40  !important;
+    text-transform: none !important;
+    color:#fff !important;
+    font-size: 15px !important;
+    border-radius: 50px !important;
+    font-weight: 600 !important;
+    min-width: 150px !important;
+  }
+  .b_re_div{
+    text-align: center;
+  }
+  .reshe_confirm_msg{
+    padding:50px;
+    text-align: center;
+  }
+
+
+
+
+  // reschedule popup
+  .res_ok_img{
+    width:70px;
+  }
+  .tq_msg{
+    font-size: 20px;
+    color: #83AF40;
+    font-weight: bold;
+  }
+  .ok_btn_re{
+    border: 1px solid #83AF40 !important;
+    background-color:  none !important;
+    border-radius: 50px !important;
+    width:120px !important;
+    color:#83AF40 !important;
+    font-weight: 600 !important;
+  }
+  .re_book{
+     color: #595959;
+  font-weight: 600;
+  margin: 15px;
+  font-size: 15px;
+  }
+  
+  .d_none{
+     
+    color:#F7B930 !important;
+  }
+.range_parent_calendar_root .tail-datetime-calendar .calendar-date table tbody tr>*:nth-child(6) .table_inter_sel{
+  background-color: #fff !important;
+  color:red !important;
+  // border-top-right-radius: 50px 50px;
+}
+.range_parent_calendar_root .tail-datetime-calendar .calendar-date table tbody tr>*:nth-child(6) .table_sec_sel{
+  background-color: #fff !important;
+  color:red !important;
+}
+.range_parent_calendar_root .tail-datetime-calendar .calendar-date table tbody tr>*:nth-child(6) .table_fir_sel{
+  background-color: #fff !important;
+  color:red !important;
+}
+  @media only screen and (max-width: 959px) and (min-width:768px) 
+{
+  .range_parent_calendar_root{
+    width:75% !important;
+  }
+}
+@media  screen and(max-width: 768px){
+  .range_parent_calendar_root{
+    width:100% !important;
+  }
+}
+
+.day_cmplt{
+  background-color: #E0EBCF;
+}
+.day_resch{
+  background-color: #F7B930;
+}
+.day_remain{
+  background-color:#83AF40
+}
+.to_be_resh{background-color:#11A0D9}
